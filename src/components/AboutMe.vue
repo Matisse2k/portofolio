@@ -7,7 +7,7 @@
 
     <div class="profile-container">
       <div class="profile-info">
-        <img src="" alt="Profile picture" class="profile-pic"/>
+        <img src="/assets/PFP.JPG" alt="Profile picture" class="profile-pic"/>
         <div class="basic-info">
         <p class="name">Matisse Ben Addi</p>
         <p class="age">Age: 20</p>
