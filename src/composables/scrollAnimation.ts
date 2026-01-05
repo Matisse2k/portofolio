@@ -1,4 +1,5 @@
-import { onMounted, Ref } from 'vue'
+import { onMounted } from 'vue'
+import type { Ref } from 'vue'
 
 export function scrollAnimation(elementRef: Ref<HTMLElement | null>) {
   onMounted(() => {
@@ -7,6 +8,8 @@ export function scrollAnimation(elementRef: Ref<HTMLElement | null>) {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('animate-in')
+          } else {
+            entry.target.classList.remove('animate-in')
           }
         })
       },
