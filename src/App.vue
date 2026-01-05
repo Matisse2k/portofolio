@@ -6,11 +6,16 @@
   <div id="app">
     <Projects />
   </div>
+
+  <div id="app">
+    <ContactInfo />
+  </div>
 </template>
 
 <script setup lang="ts">
 import AboutMe from './components/AboutMe.vue'
 import Projects from './components/Projects.vue'
+import ContactInfo from '@/components/ContactInfo.vue'
 </script>
 
 <style>
