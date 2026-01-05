@@ -14,13 +14,16 @@
 
         <div class="description">
           <p>
-            Hey! Ik ben Matisse, op dit moment 2e jaars Software Engineering student.
-            Ik vind het leuk om probleemoplossend te denken en mooie functies, applicaties
-            en websites te maken. Tot nu toe heb ik vooral aan schoolprojecten gewerkt,
-            maar ben nu klaar om meer te doen! Ik ben leergierig en werk graag in teams.
-            Inmiddels ben ik al goed gedrilled met Agile werken en het gebruik maken van
-            user stories in GitLab. Veel plezier met het bekijken van mijn portfolio!
-          </p>
+            Hey! I'm Matisse Ben Addi, a 2nd year Software Engineering student.</p>
+            &nbsp;
+          <p> During my studies, I've gained experience with full-stack development: from building responsive interfaces with Vue, TypeScript, and Tailwind, to setting up backends in Java with databases like MySQL, PostgreSQL, and H2. I enjoy problem-solving and love creating functional applications that also look great.</p>
+            &nbsp;
+            <p>  So far, I've mainly worked on school projects, but each project gives me the opportunity to learn new things and grow as a developer. What really motivates me is that moment when your code finally works and looks exactly how you envisioned it - like recently when I added nested commenting to my forum project and saw how smoothly it worked. That rush gives me the energy to keep going.</p>
+            &nbsp;
+              <p> I love working in teams and by now I'm well-trained in Agile methodologies and using user stories in GitLab. I'm currently looking for a 20-week internship starting in February, where I can contribute to real projects and further develop my skills.</p>
+            &nbsp;
+                <p>Enjoy browsing my portfolio!</p>
+
         </div>
       </div>
     </div>
