@@ -1,5 +1,5 @@
 <template>
-  <section class="projects">
+  <section ref="sectionRef" class="projects fade-in-section">
     <h1>My Projects</h1>
 
     <div class="projects-grid">
@@ -40,6 +40,12 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+import { scrollAnimation } from '@/composables/scrollAnimation.ts'
+
+const sectionRef = ref<HTMLElement | null>(null)
+scrollAnimation(sectionRef)
+
 const projects = [
   {
     name: "Election Site",

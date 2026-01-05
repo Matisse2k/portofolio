@@ -1,5 +1,5 @@
 <template>
-  <section class="about-me">
+  <section ref="sectionRef" class="about-me fade-in-section">
     <div class="card">
       <h1>About Me</h1>
 
@@ -31,6 +31,11 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+import { scrollAnimation } from '../composables/scrollAnimation'
+
+const sectionRef = ref<HTMLElement | null>(null)
+scrollAnimation(sectionRef)
 </script>
 
 <style scoped>

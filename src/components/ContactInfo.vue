@@ -1,5 +1,5 @@
 <template>
-  <section class="contact">
+  <section ref="sectionRef" class="contact fade-in-section">
     <h1>Get In Touch</h1>
     <p class="contact-text">
       I'm currently looking for a 20-week internship starting in February 2025.
@@ -33,6 +33,11 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+import { scrollAnimation } from '../composables/scrollAnimation'
+
+const sectionRef = ref<HTMLElement | null>(null)
+scrollAnimation(sectionRef)
 </script>
 
 <style scoped>
