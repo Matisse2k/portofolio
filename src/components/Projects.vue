@@ -10,9 +10,7 @@
             <a v-if="project.liveUrl" :href="project.liveUrl" target="_blank" class="link-btn live">
               Live Demo
             </a>
-            <a :href="project.githubUrl" target="_blank" class="link-btn github">
-              GitHub
-            </a>
+            <a :href="project.githubUrl" target="_blank" class="link-btn github"> GitHub </a>
           </div>
         </div>
 
@@ -48,43 +46,47 @@ scrollAnimation(sectionRef)
 
 const projects = [
   {
-    name: "Election Site",
-    description: "A political forum and election data platform that displays real Dutch government election data (2021-2025) with interactive discussions and nested commenting functionality.",
+    name: 'Election Site',
+    description:
+      'A political forum and election data platform that displays real Dutch government election data (2021-2025) with interactive discussions and nested commenting functionality.',
     contribution: [
-      "Processed raw government XML data into a structured database",
-      "Created nested reply system with edit/delete functionality",
-      "Built dynamic year selector component used across multiple pages"
+      'Processed raw government XML data into a structured database',
+      'Created nested reply system with edit/delete functionality',
+      'Built dynamic year selector component used across multiple pages',
     ],
-    techStack: ["Java", "TypeScript", "Vue", "H2", "Springboot", "Tailwind", "CSS"],
-    githubUrl: "https://github.com/Matisse2k/election-site",
-    liveUrl: ""
+    techStack: ['Java', 'TypeScript', 'Vue', 'H2', 'Springboot', 'Tailwind', 'CSS'],
+    githubUrl: 'https://github.com/Matisse2k/election-site',
+    liveUrl: "https://election-frontend-no3w.onrender.com/",
+    note: '⚠️ First load may take 30-40 seconds due to server cold start on free hosting.',
   },
   {
-    name: "The Game",
-    description: "A text-based adventure game featuring multiple rooms, interactive items, and character actions, with custom audio controls built using components.",
+    name: 'The Game',
+    description:
+      'A text-based adventure game featuring multiple rooms, interactive items, and character actions, with custom audio controls built using components.',
     contribution: [
-      "Created 2 interactive rooms with items, actions, and characters",
-      "Built reusable volume bar and mute button components",
-      "Implemented local storage for game state persistence"
+      'Created 2 interactive rooms with items, actions, and characters',
+      'Built reusable volume bar and mute button components',
+      'Implemented local storage for game state persistence',
     ],
-    techStack: ["TypeScript", "HTML", "CSS", "LocalStorage"],
-    githubUrl: "https://github.com/Matisse2k/the-game-1st-year-project",
-    liveUrl: "https://the-game-1st-year-project-web.vercel.app/",
-    note: "⚠️ First load may take 30-40 seconds due to server cold start on free hosting."
+    techStack: ['TypeScript', 'HTML', 'CSS', 'LocalStorage'],
+    githubUrl: 'https://github.com/Matisse2k/the-game-1st-year-project',
+    liveUrl: 'https://the-game-1st-year-project-web.vercel.app/',
+    note: '⚠️ First load may take 30-40 seconds due to server cold start on free hosting.',
   },
   {
-    name: "Game Web Shop",
-    description: "An e-commerce platform for indie games with shopping cart functionality, wishlists, user libraries, and third-party discount code validation via API integration.",
+    name: 'Game Web Shop',
+    description:
+      'An e-commerce platform for indie games with shopping cart functionality, wishlists, user libraries, and third-party discount code validation via API integration.',
     contribution: [
-      "Designed and implemented game details pages UI",
-      "Built complete shopping cart with database persistence",
-      "Integrated third-party API for discount code validation"
+      'Designed and implemented game details pages UI',
+      'Built complete shopping cart with database persistence',
+      'Integrated third-party API for discount code validation',
     ],
-    techStack: ["TypeScript", "CSS", "HTML", "MVC", "MySQL"],
-    githubUrl: "https://github.com/Matisse2k/the-game-shop",
-    liveUrl: ""
-  }
-];
+    techStack: ['TypeScript', 'CSS', 'HTML', 'MVC', 'MySQL'],
+    githubUrl: 'https://github.com/Matisse2k/the-game-shop',
+    liveUrl: '',
+  },
+]
 </script>
 
 <style scoped>
@@ -115,7 +117,9 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .project-card:hover {
@@ -216,7 +220,7 @@ h2 {
 }
 
 .contribution li::before {
-  content: "▹";
+  content: '▹';
   position: absolute;
   left: 0;
   color: var(--accent);
