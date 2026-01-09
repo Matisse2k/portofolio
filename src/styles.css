@@ -18,7 +18,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Animated gradient background */
+
 body::before {
     content: '';
     position: fixed;
@@ -35,19 +35,6 @@ body::before {
             #1a1a1a 75%,
             #0f0f0f 100%
     );
-    background-size: 400% 400%;
-    animation: gradientMove 15s ease infinite;
-}
-
-@keyframes gradientMove {
-    0%, 100% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-
-
 }
 
 /* Scroll animations */
